@@ -1,0 +1,103 @@
+.footer {
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  background-color: burlywood;
+  margin: -8px
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: -8px;
+  height: 30px;
+  background-color: burlywood;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: cornflowerblue;
+  margin: 8px -8px 0px -8px;
+  height: 100vh;
+  text-align: center;
+}
+
+.main>h1 {
+  font-size: 22px;
+}
+
+#cat {
+  width: 20%;
+  align-self: center;
+  margin: 10px;
+}
+
+.catLabel {
+  width: 20%;
+  align-self: center;
+  margin: 15px;
+}
+
+.jokeButton {
+  width: 10%;
+  align-self: center;
+  margin: 10px;
+}
+
+.favButton {
+  align-self: center;
+  margin: 10px;
+}
+
+.del {
+  width: 10%;
+  align-self: center;
+  margin: 10px;
+}
+
+.joke {
+  font-size: 18px;
+  width: 60%;
+  align-self: center;
+  margin: 25px;
+}
+
+.joke > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  box-shadow: lightblue 1px 11px 50px 20px;
+  background-color: lightblue;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  background-color: cornflowerblue;
+  margin: 8px -8px 0px -8px;
+  height: 100vh;
+  text-align: center;
+}
+
+.fav {
+  display: flex;
+  flex-direction: column;
+  background-color: cornflowerblue;
+  margin: 8px -8px 0px -8px;
+  height: 100vh;
+  text-align: center;
+}
+
+.fav>div {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline dotted;
+}
