@@ -4,7 +4,6 @@ import SwipeableViews from 'react-swipeable-views';
 import {
     makeStyles, useTheme, AppBar, Tabs, Tab, Typography, Box
 } from '@material-ui/core';
-import {Link} from 'react-router-dom';
 
 function TabPanel(props) {
     const {children, value, index, ...other} = props;
